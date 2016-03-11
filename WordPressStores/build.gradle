@@ -12,6 +12,16 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven'
 apply plugin: 'signing'
 apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'checkstyle'
+
+task checkstyle(type: Checkstyle) {
+    source 'src/main/java'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    // empty classpath
+    classpath = files()
+}
 
 repositories {
     jcenter()
