@@ -1,6 +1,6 @@
 package org.wordpress.android.stores.module;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 
 import javax.inject.Singleton;
 

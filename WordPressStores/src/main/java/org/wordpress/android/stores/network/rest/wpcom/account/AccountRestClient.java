@@ -6,7 +6,7 @@ import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.action.AccountAction;
 import org.wordpress.android.stores.model.AccountModel;
 import org.wordpress.android.stores.network.UserAgent;

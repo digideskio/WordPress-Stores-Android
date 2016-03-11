@@ -7,7 +7,7 @@ import com.android.volley.toolbox.Volley;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.OkUrlFactory;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.network.OkHttpStack;
 import org.wordpress.android.stores.network.UserAgent;
 import org.wordpress.android.stores.network.rest.wpcom.account.AccountRestClient;

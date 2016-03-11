@@ -1,6 +1,6 @@
 package org.wordpress.android.stores.store;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.action.Action;
 
 public abstract class Store {

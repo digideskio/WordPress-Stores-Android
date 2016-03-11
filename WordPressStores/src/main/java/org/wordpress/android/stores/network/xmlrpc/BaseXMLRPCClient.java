@@ -3,7 +3,7 @@ package org.wordpress.android.stores.network.xmlrpc;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.action.AuthenticationAction;
 import org.wordpress.android.stores.model.SiteModel;
 import org.wordpress.android.stores.network.AuthError;

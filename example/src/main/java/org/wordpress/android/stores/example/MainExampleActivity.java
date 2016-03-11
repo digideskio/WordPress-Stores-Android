@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 import com.squareup.otto.Subscribe;
 
-import org.wordpress.android.stores.Dispatcher;
 import org.wordpress.android.stores.action.AccountAction;
 import org.wordpress.android.stores.action.AuthenticationAction;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.action.SiteAction;
 import org.wordpress.android.stores.example.SignInDialog.Listener;
 import org.wordpress.android.stores.model.SiteModel;

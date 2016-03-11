@@ -3,10 +3,13 @@ package org.wordpress.android.stores.action;
 public class Action<T> {
     private final IAction mActionType;
     private final T mPayload;
+    private final long mId;
 
-    public Action(IAction actionType, T payload) {
+    // Package private constructor
+    Action(IAction actionType, T payload, long id) {
         mActionType = actionType;
         mPayload = payload;
+        mId = id;
     }
 
     public IAction getType() {
@@ -15,5 +18,9 @@ public class Action<T> {
 
     public T getPayload() {
         return mPayload;
+    }
+
+    public long getId() {
+        return mId;
     }
 }

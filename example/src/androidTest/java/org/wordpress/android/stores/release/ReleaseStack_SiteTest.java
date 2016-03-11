@@ -2,7 +2,7 @@ package org.wordpress.android.stores.release;
 
 import com.squareup.otto.Subscribe;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.TestUtils;
 import org.wordpress.android.stores.action.SiteAction;
 import org.wordpress.android.stores.example.BuildConfig;

@@ -6,7 +6,7 @@ import android.test.InstrumentationTestCase;
 import com.squareup.otto.Subscribe;
 import com.yarolegovich.wellsql.WellSql;
 
-import org.wordpress.android.stores.Dispatcher;
+import org.wordpress.android.stores.action.Dispatcher;
 import org.wordpress.android.stores.action.AuthenticationAction;
 import org.wordpress.android.stores.module.AppContextModule;
 import org.wordpress.android.stores.persistence.WellSqlConfig;
